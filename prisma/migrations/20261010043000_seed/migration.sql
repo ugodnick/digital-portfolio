@@ -139,7 +139,7 @@ VALUES
         'd3c00005-8b0e-4d6a-9c11-0a1b2c3d4e5f',
         'Indoor farm automation',
         'An indoor-farm automation system. Stack: React, NestJS, MQTT, Redis, PostgreSQL, Kubernetes.',
-        NULL,
+        'https://iogru.com/',
         '3f1c2a44-8b0e-4d6a-9c11-0a1b2c3d4e5f',
         'c2b00004-8b0e-4d6a-9c11-0a1b2c3d4e5f',
         CURRENT_TIMESTAMP
