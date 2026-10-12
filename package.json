@@ -9,7 +9,7 @@
   "scripts": {
     "build": "nest build",
     "deploy": "nest deploy",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "db:deploy": "prisma migrate deploy --config prisma7.config.ts",
     "db:migrate": "prisma migrate dev --config prisma7.config.ts",
     "db:reset": "prisma migrate reset --force --config prisma7.config.ts",
