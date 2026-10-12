@@ -1,0 +1,9 @@
+node_modules
+dist
+.git
+.pnpm-store
+coverage
+src/generated
+*.md
+.env
+.env.*
