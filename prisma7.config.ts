@@ -1,12 +1,8 @@
 import 'dotenv/config';
 import { defineConfig } from 'prisma/config';
+import { databaseUrlFromEnv } from './src/database/connection-string.js';
 
-const user = process.env['POSTGRES_USER'];
-const password = encodeURIComponent(process.env['POSTGRES_PASSWORD'] ?? '');
-const database = process.env['POSTGRES_DB'];
-const host = process.env['POSTGRES_HOST'] ?? 'localhost';
-const port = process.env['POSTGRES_PORT'] ?? '5432';
-const databaseUrl = `postgresql://${user}:${password}@${host}:${port}/${database}`;
+const databaseUrl = databaseUrlFromEnv();
 
 export default defineConfig({
   schema: 'prisma/schema.prisma',
